@@ -27,10 +27,10 @@ if st.sidebar.button("Run AI Analysis for Kalimantan"):
     st.metric("Paradigm Shift Score", "85/100", "High potential for scalable MRV in Indonesia")
 
 st.markdown("### GCF Paradigm Shift Metrics")
+st.markdown("### GCF Paradigm Shift Metrics")
 st.json({
     "Scalability": "High - Kalimantan model replicable across Indonesia/SE Asia",
     "Innovation": "AI + Sentinel satellite for peat & forest tracking",
     "Impact": "Supports Indonesia NDC & REDD+"
 })
-
 st.caption("Kalimantan-focused prototype. Real version would use Google Earth Engine for live satellite data.")
